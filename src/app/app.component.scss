@@ -1,0 +1,91 @@
+.main {
+  max-width: 1366px;
+  margin: auto;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.h97 {
+  height: 97vh;
+}
+
+.card {
+  box-shadow: 0 0 10px #D8D8D8 !important;
+  width: 30%;
+  border-radius: 12px;
+  padding: 24px;
+}
+
+.signUp-text {
+  font-size: 24px;
+  text-align: center;
+}
+
+input {
+  border: solid 2px #979797;
+  padding: 12px;
+  width: 84%;
+  flex-direction: column;
+  display: flex;
+  margin: 12px auto auto;
+  border-radius: 12px;
+}
+
+label {
+  margin-right: 7%;
+}
+
+.mt-24 {
+  margin-top: 24px;
+}
+
+.button {
+  height: 48px;
+  width: 50%;
+  background-color: #0A74A8;
+  border: none;
+  border-radius: 12px;
+  color: white;
+  cursor: pointer;
+}
+
+.button:disabled {
+  height: 48px;
+  width: 50%;
+  background-color: #979797;
+  border: none;
+  border-radius: 12px;
+  color: white;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .card {
+    box-shadow: none !important;
+    width: 100%;
+    border-radius: 12px;
+    padding: 16px;
+  }
+
+  input {
+    border: solid 2px #979797;
+    padding: 12px;
+    width: 92%;
+    flex-direction: column;
+    display: flex;
+    margin: 12px auto auto;
+    border-radius: 12px;
+  }
+}
+
+svg#clouds {
+  position: fixed;
+  bottom: -160px;
+  left: -230px;
+  z-index: -10;
+  width: 1920px;
+}

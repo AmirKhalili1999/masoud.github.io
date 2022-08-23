@@ -1,0 +1,21 @@
+@font-face {
+  font-family: IRANSansXFaNum-Medium;
+  src: url('assets/fonts/IRANSansXFaNum-Medium.ttf') format("opentype");
+}
+
+* {
+  font-family: IRANSansXFaNum-Medium, sans-serif;
+}
+
+span {
+  font-family: IRANSansXFaNum-Medium, sans-serif;
+}
+
+p {
+  font-family: IRANSansXFaNum-Medium, sans-serif;
+}
+
+
+H1, H2, H3, H4, H5 {
+  font-family: IRANSansXFaNum-Medium, sans-serif !important;;
+}
